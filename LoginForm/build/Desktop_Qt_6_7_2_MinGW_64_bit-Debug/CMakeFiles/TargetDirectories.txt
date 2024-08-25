@@ -1,0 +1,9 @@
+D:/QtMiniProjects/LoginForm/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/LoginForm.dir
+D:/QtMiniProjects/LoginForm/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+D:/QtMiniProjects/LoginForm/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+D:/QtMiniProjects/LoginForm/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+D:/QtMiniProjects/LoginForm/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/install.dir
+D:/QtMiniProjects/LoginForm/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+D:/QtMiniProjects/LoginForm/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+D:/QtMiniProjects/LoginForm/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/LoginForm_autogen_timestamp_deps.dir
+D:/QtMiniProjects/LoginForm/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/LoginForm_autogen.dir
