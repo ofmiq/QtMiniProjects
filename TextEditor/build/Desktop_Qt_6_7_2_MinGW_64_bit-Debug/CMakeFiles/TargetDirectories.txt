@@ -1,0 +1,9 @@
+D:/QtMiniProjects/TextEditor/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/TextEditor.dir
+D:/QtMiniProjects/TextEditor/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+D:/QtMiniProjects/TextEditor/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+D:/QtMiniProjects/TextEditor/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+D:/QtMiniProjects/TextEditor/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/install.dir
+D:/QtMiniProjects/TextEditor/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+D:/QtMiniProjects/TextEditor/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+D:/QtMiniProjects/TextEditor/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/TextEditor_autogen_timestamp_deps.dir
+D:/QtMiniProjects/TextEditor/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/TextEditor_autogen.dir
