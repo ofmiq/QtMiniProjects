@@ -1,0 +1,15 @@
+# ninja log v6
+8	130	7464939775987020	D:/QtMiniProjects/Calculator/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Calculator_autogen/timestamp	40fbe1525ebf6856
+8	130	7464939775987020	Calculator_autogen/timestamp	40fbe1525ebf6856
+8	130	7464939775987020	Calculator_autogen/mocs_compilation.cpp	40fbe1525ebf6856
+8	130	7464939775987020	D:/QtMiniProjects/Calculator/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Calculator_autogen/mocs_compilation.cpp	40fbe1525ebf6856
+1748	1915	7464939793373684	Calculator.exe	43a431f45c0074ab
+418	1818	7464829409248202	CMakeFiles/Calculator.dir/Calculator_autogen/mocs_compilation.cpp.obj	ee051f3f344b1225
+420	1877	7464829409268081	CMakeFiles/Calculator.dir/main.cpp.obj	edb6135ff66d584b
+131	1748	7464939777215991	CMakeFiles/Calculator.dir/mainwindow.cpp.obj	469e9b6982a75d44
+8	126	7464945853637297	Calculator_autogen/timestamp	40fbe1525ebf6856
+8	126	7464945853637297	Calculator_autogen/mocs_compilation.cpp	40fbe1525ebf6856
+8	126	7464945853637297	D:/QtMiniProjects/Calculator/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Calculator_autogen/timestamp	40fbe1525ebf6856
+8	126	7464945853637297	D:/QtMiniProjects/Calculator/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Calculator_autogen/mocs_compilation.cpp	40fbe1525ebf6856
+127	1619	7464945854867472	CMakeFiles/Calculator.dir/mainwindow.cpp.obj	469e9b6982a75d44
+1619	1768	7464945869787462	Calculator.exe	43a431f45c0074ab
