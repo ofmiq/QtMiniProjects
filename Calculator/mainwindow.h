@@ -19,5 +19,6 @@ public:
 
 private:
     Ui::MainWindow *ui;
+    void setShortcuts();
 };
 #endif // MAINWINDOW_H
