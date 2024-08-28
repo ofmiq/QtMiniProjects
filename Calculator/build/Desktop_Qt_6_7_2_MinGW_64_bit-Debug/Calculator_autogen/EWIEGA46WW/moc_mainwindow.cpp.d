@@ -143,7 +143,10 @@ D:/QtMiniProjects/Calculator/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Calculato
   D:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs.h \
   D:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs_win.h \
   D:/Qt/6.7.2/mingw_64/include/QtWidgets/QMainWindow \
+  D:/Qt/6.7.2/mingw_64/include/QtWidgets/QPushButton \
+  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractbutton.h \
   D:/Qt/6.7.2/mingw_64/include/QtWidgets/qmainwindow.h \
+  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qpushbutton.h \
   D:/Qt/6.7.2/mingw_64/include/QtWidgets/qsizepolicy.h \
   D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtabwidget.h \
   D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgets-config.h \

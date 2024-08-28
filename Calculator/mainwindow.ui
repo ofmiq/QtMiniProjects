@@ -50,13 +50,13 @@
      <string notr="true">font: 12pt &quot;Segoe UI&quot;;</string>
     </property>
     <property name="text">
-     <string>0</string>
+     <string/>
     </property>
     <property name="alignment">
      <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
     </property>
    </widget>
-   <widget class="QPushButton" name="button_sign">
+   <widget class="QPushButton" name="Button_sign">
     <property name="geometry">
      <rect>
       <x>0</x>
