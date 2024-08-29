@@ -1,5 +1,6 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
+#include <cmath>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -34,7 +35,6 @@ void MainWindow::setShortcuts() {
     ui->Button_CE->setShortcut(Qt::Key_Delete);
     ui->Button_back->setShortcut(Qt::Key_Backspace);
     ui->Button_div->setShortcut(Qt::Key_Slash);
-    ui->Button_eq->setShortcut(Qt::Key_Enter);
     ui->Button_eq->setShortcut(Qt::Key_Return);
     ui->Button_inv->setShortcut(Qt::Key_R);
     ui->Button_minus->setShortcut(Qt::Key_Minus);
@@ -95,6 +95,8 @@ void MainWindow::buttonClicked() {
             performOperation(Operation::Divide);
         } else if (button == ui->Button_eq) {
             calculate();
+        } else if (button == ui->Button_pow) {
+            exponentiation();
         } else if (button == ui->Button_inv) {
             reciprocal();
         } else if (button == ui->Button_sqrt) {
@@ -193,25 +195,38 @@ void MainWindow::calculate() {
     default:
         break;
     }
+
     ui->Result_label->setText(QString::number(result));
-    ui->History_label->setText(QString::number(memoryValue)
-                               + " " + operationToString(currentOperation)
-                               + " " + QString::number(currentValue));
-    memoryValue = result;
+    ui->History_label->setText(QString::number(memoryValue) + " " + operationToString(currentOperation) + " " + QString::number(currentValue));
+    currentValue = result;
     currentOperation = Operation::None;
     waitingForOperand = true;
 }
 
-void MainWindow::reciprocal()
-{
-    if (currentValue) {
-        ui->History_label->setText("1 / (" + QString::number(currentValue) + ")");
-        currentValue = 1.0 / currentValue;
-        ui->Result_label->setText(QString::number(currentValue));
+void MainWindow::exponentiation() {
+    double result = currentValue * currentValue;
 
+    ui->Result_label->setText(QString::number(result));
+    if (waitingForOperand) {
+        ui->History_label->setText(QString::number(currentValue) + " ^ 2");
+        currentValue = result;
     } else {
-        ui->Result_label->setText("Division by zero");
+        ui->History_label->setText(ui->History_label->text() + QString::number(currentValue) + " ^ 2");
     }
+
+    currentValue = result;
+    waitingForOperand = true;
+}
+
+void MainWindow::reciprocal() {
+    if (currentValue == 0.0) {
+        ui->Result_label->setText("Division by zero");
+        return;
+    }
+
+    currentValue = 1.0 / currentValue;
+    ui->Result_label->setText(QString::number(currentValue));
+    ui->History_label->setText("1 / " + QString::number(1.0 / currentValue));
 }
 
 void MainWindow::squareRoot() {
@@ -221,16 +236,16 @@ void MainWindow::squareRoot() {
     }
 
     double result = sqrt(currentValue);
-    ui->Result_label->setText(QString::number(result));
 
     if (waitingForOperand) {
-        currentValue = result;
         ui->History_label->setText("√(" + QString::number(currentValue) + ")");
+        currentValue = result;
     } else {
         ui->History_label->setText(ui->History_label->text() + "√(" + QString::number(currentValue) + ")");
-        currentValue = result;
-        calculate();
     }
+
+    ui->Result_label->setText(QString::number(result));
+    currentValue = result;
 
     waitingForOperand = true;
 }
@@ -242,7 +257,7 @@ void MainWindow::changeSign() {
 
 void MainWindow::percentage() {
     if (currentOperation == Operation::None) {
-        currentValue = memoryValue * (currentValue / 100.0);
+        currentValue = currentValue / 100.0;
         ui->Result_label->setText(QString::number(currentValue));
     } else {
         double percentageValue = memoryValue * (currentValue / 100.0);
@@ -255,11 +270,11 @@ void MainWindow::percentage() {
             currentValue = memoryValue - percentageValue;
             break;
         case Operation::Multiply:
-            currentValue = memoryValue * (percentageValue / 100.0);
+            currentValue = memoryValue * (currentValue / 100.0);
             break;
         case Operation::Divide:
             if (percentageValue != 0) {
-                currentValue = memoryValue / (percentageValue / 100.0);
+                currentValue = memoryValue / (currentValue / 100.0);
             } else {
                 ui->Result_label->setText("Division by zero");
                 return;
@@ -272,34 +287,26 @@ void MainWindow::percentage() {
         ui->Result_label->setText(QString::number(currentValue));
         ui->History_label->setText(QString::number(memoryValue)
                                    + " " + operationToString(currentOperation)
-                                   + " " + QString::number(percentageValue));
+                                   + " " + QString::number(currentValue));
         currentOperation = Operation::None;
         waitingForOperand = true;
     }
 }
 
 void MainWindow::addDecimalPoint() {
-    QString currentText = ui->Result_label->text();
-
     if (waitingForOperand) {
-        currentText = "0";
-    }
-
-    if (!currentText.contains(".")) {
-        if (currentText == "0") {
-            currentText = "0.";
-        } else {
-            currentText += ".";
+        ui->Result_label->setText("0.");
+        waitingForOperand = false;
+    } else {
+        if (!ui->Result_label->text().contains('.')) {
+            ui->Result_label->setText(ui->Result_label->text() + '.');
         }
-        ui->Result_label->setText(currentText);
     }
-
-    waitingForOperand = false;
+    currentValue = ui->Result_label->text().toDouble();
 }
 
-
 QString MainWindow::operationToString(Operation operation) const {
-    switch (operation) {
+    switch(operation) {
     case Operation::Add:
         return "+";
     case Operation::Subtract:

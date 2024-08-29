@@ -44,6 +44,7 @@ private:
     void calculate();
     void reciprocal();
     void squareRoot();
+    void exponentiation();
     void changeSign();
     void percentage();
     void addDecimalPoint();
