@@ -20,6 +20,7 @@ public:
 private:
     Ui::MainWindow *ui;
     void setupTable();
+    void setupButtons();
     void addTask();
 };
 #endif // MAINWINDOW_H
