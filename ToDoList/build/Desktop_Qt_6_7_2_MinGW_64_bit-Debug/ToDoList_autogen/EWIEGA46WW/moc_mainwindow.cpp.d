@@ -142,6 +142,11 @@ D:/QtMiniProjects/ToDoList/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ToDoList_au
   D:/Qt/6.7.2/mingw_64/include/QtGui/qtransform.h \
   D:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs.h \
   D:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs_win.h \
+  D:/Qt/6.7.2/mingw_64/include/QtSql/QSqlDatabase \
+  D:/Qt/6.7.2/mingw_64/include/QtSql/qsqldatabase.h \
+  D:/Qt/6.7.2/mingw_64/include/QtSql/qtsql-config.h \
+  D:/Qt/6.7.2/mingw_64/include/QtSql/qtsqlexports.h \
+  D:/Qt/6.7.2/mingw_64/include/QtSql/qtsqlglobal.h \
   D:/Qt/6.7.2/mingw_64/include/QtWidgets/QMainWindow \
   D:/Qt/6.7.2/mingw_64/include/QtWidgets/qmainwindow.h \
   D:/Qt/6.7.2/mingw_64/include/QtWidgets/qsizepolicy.h \
