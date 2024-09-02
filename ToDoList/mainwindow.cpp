@@ -59,13 +59,20 @@ bool MainWindow::connectToDatabase() {
 }
 
 void MainWindow::setupTable() {
+    ui->tableWidget->setColumnWidth(1, 80);
+    ui->tableWidget->setColumnWidth(2, 100);
+    ui->tableWidget->setColumnWidth(3, 50);
+    ui->tableWidget->setColumnWidth(4, 50);
+
+    ui->tableWidget->horizontalHeader()->setSectionResizeMode(0, QHeaderView::Stretch);
+
+    ui->tableWidget->horizontalHeader()->setSectionResizeMode(1, QHeaderView::ResizeToContents);
+    ui->tableWidget->horizontalHeader()->setSectionResizeMode(2, QHeaderView::ResizeToContents);
+    ui->tableWidget->horizontalHeader()->setSectionResizeMode(3, QHeaderView::ResizeToContents);
+    ui->tableWidget->horizontalHeader()->setSectionResizeMode(4, QHeaderView::ResizeToContents);
+
     ui->dateEdit->setDate(QDate::currentDate());
 
-    ui->tableWidget->setColumnWidth(0, 165);
-    ui->tableWidget->setColumnWidth(1, 50);
-    ui->tableWidget->setColumnWidth(2, 70);
-    ui->tableWidget->setColumnWidth(3, 60);
-    ui->tableWidget->setColumnWidth(4, 45);
 }
 
 void MainWindow::setupButtons() {
