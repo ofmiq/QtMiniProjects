@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-2a9a13c966d6c01db4f7.json",
+					"jsonFile" : "directory-.-Debug-848fd5d6fdf4a0018a5d.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ToDoList::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ToDoList-Debug-b02417b6fa23c3386f7f.json",
+					"jsonFile" : "target-ToDoList-Debug-bf662ca964b74f5d85fc.json",
 					"name" : "ToDoList",
 					"projectIndex" : 0
 				},

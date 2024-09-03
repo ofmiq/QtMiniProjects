@@ -73,6 +73,14 @@ build CMakeFiles/ToDoList.dir/mainwindow.cpp.obj: CXX_COMPILER__ToDoList_unscann
   OBJECT_DIR = CMakeFiles\ToDoList.dir
   OBJECT_FILE_DIR = CMakeFiles\ToDoList.dir
 
+build CMakeFiles/ToDoList.dir/task.cpp.obj: CXX_COMPILER__ToDoList_unscanned_Debug D$:/QtMiniProjects/ToDoList/task.cpp || cmake_object_order_depends_target_ToDoList
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\ToDoList.dir\task.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -ID:/QtMiniProjects/ToDoList/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ToDoList_autogen/include -isystem D:/Qt/6.7.2/mingw_64/include/QtCore -isystem D:/Qt/6.7.2/mingw_64/include -isystem D:/Qt/6.7.2/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.7.2/mingw_64/include/QtWidgets -isystem D:/Qt/6.7.2/mingw_64/include/QtGui -isystem D:/Qt/6.7.2/mingw_64/include/QtSql
+  OBJECT_DIR = CMakeFiles\ToDoList.dir
+  OBJECT_FILE_DIR = CMakeFiles\ToDoList.dir
+
 build CMakeFiles/ToDoList.dir/ToDoList_autogen/EWIEGA46WW/qrc_resources.cpp.obj: CXX_COMPILER__ToDoList_unscanned_Debug D$:/QtMiniProjects/ToDoList/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ToDoList_autogen/EWIEGA46WW/qrc_resources.cpp || cmake_object_order_depends_target_ToDoList
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\ToDoList.dir\ToDoList_autogen\EWIEGA46WW\qrc_resources.cpp.obj.d
@@ -89,7 +97,7 @@ build CMakeFiles/ToDoList.dir/ToDoList_autogen/EWIEGA46WW/qrc_resources.cpp.obj:
 #############################################
 # Link the executable ToDoList.exe
 
-build ToDoList.exe: CXX_EXECUTABLE_LINKER__ToDoList_Debug CMakeFiles/ToDoList.dir/ToDoList_autogen/mocs_compilation.cpp.obj CMakeFiles/ToDoList.dir/main.cpp.obj CMakeFiles/ToDoList.dir/mainwindow.cpp.obj CMakeFiles/ToDoList.dir/ToDoList_autogen/EWIEGA46WW/qrc_resources.cpp.obj | D$:/Qt/6.7.2/mingw_64/lib/libQt6Widgets.a D$:/Qt/6.7.2/mingw_64/lib/libQt6Sql.a D$:/Qt/6.7.2/mingw_64/lib/libQt6Gui.a D$:/Qt/6.7.2/mingw_64/lib/libQt6Core.a D$:/Qt/6.7.2/mingw_64/lib/libQt6EntryPoint.a || ToDoList_autogen ToDoList_autogen_timestamp_deps
+build ToDoList.exe: CXX_EXECUTABLE_LINKER__ToDoList_Debug CMakeFiles/ToDoList.dir/ToDoList_autogen/mocs_compilation.cpp.obj CMakeFiles/ToDoList.dir/main.cpp.obj CMakeFiles/ToDoList.dir/mainwindow.cpp.obj CMakeFiles/ToDoList.dir/task.cpp.obj CMakeFiles/ToDoList.dir/ToDoList_autogen/EWIEGA46WW/qrc_resources.cpp.obj | D$:/Qt/6.7.2/mingw_64/lib/libQt6Widgets.a D$:/Qt/6.7.2/mingw_64/lib/libQt6Sql.a D$:/Qt/6.7.2/mingw_64/lib/libQt6Gui.a D$:/Qt/6.7.2/mingw_64/lib/libQt6Core.a D$:/Qt/6.7.2/mingw_64/lib/libQt6EntryPoint.a || ToDoList_autogen ToDoList_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = D:/Qt/6.7.2/mingw_64/lib/libQt6Widgets.a  D:/Qt/6.7.2/mingw_64/lib/libQt6Sql.a  D:/Qt/6.7.2/mingw_64/lib/libQt6Gui.a  -ld3d11  -ldxgi  -ldxguid  -ld3d12  D:/Qt/6.7.2/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  D:/Qt/6.7.2/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32

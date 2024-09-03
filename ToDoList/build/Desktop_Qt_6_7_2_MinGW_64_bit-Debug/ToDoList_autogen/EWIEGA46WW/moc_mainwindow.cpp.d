@@ -1,5 +1,8 @@
 D:/QtMiniProjects/ToDoList/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ToDoList_autogen/EWIEGA46WW/moc_mainwindow.cpp: D:/QtMiniProjects/ToDoList/mainwindow.h \
   D:/QtMiniProjects/ToDoList/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ToDoList_autogen/moc_predefs.h \
+  D:/Qt/6.7.2/mingw_64/include/QtCore/QDate \
+  D:/Qt/6.7.2/mingw_64/include/QtCore/QDebug \
+  D:/Qt/6.7.2/mingw_64/include/QtCore/QString \
   D:/Qt/6.7.2/mingw_64/include/QtCore/q20functional.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/q20memory.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/q20type_traits.h \
@@ -18,6 +21,7 @@ D:/QtMiniProjects/ToDoList/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ToDoList_au
   D:/Qt/6.7.2/mingw_64/include/QtCore/qbytearrayalgorithms.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qbytearraylist.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qbytearrayview.h \
+  D:/Qt/6.7.2/mingw_64/include/QtCore/qcalendar.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qchar.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qcompare.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qcompare_impl.h \
@@ -31,6 +35,7 @@ D:/QtMiniProjects/ToDoList/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ToDoList_au
   D:/Qt/6.7.2/mingw_64/include/QtCore/qcontiguouscache.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qdarwinhelpers.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qdatastream.h \
+  D:/Qt/6.7.2/mingw_64/include/QtCore/qdatetime.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qdebug.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qendian.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qexceptionhandling.h \
@@ -50,6 +55,7 @@ D:/QtMiniProjects/ToDoList/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ToDoList_au
   D:/Qt/6.7.2/mingw_64/include/QtCore/qlatin1stringview.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qline.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qlist.h \
+  D:/Qt/6.7.2/mingw_64/include/QtCore/qlocale.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qlogging.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qmalloc.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qmap.h \
@@ -143,11 +149,18 @@ D:/QtMiniProjects/ToDoList/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ToDoList_au
   D:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs.h \
   D:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs_win.h \
   D:/Qt/6.7.2/mingw_64/include/QtSql/QSqlDatabase \
+  D:/Qt/6.7.2/mingw_64/include/QtSql/QSqlError \
+  D:/Qt/6.7.2/mingw_64/include/QtSql/QSqlQuery \
   D:/Qt/6.7.2/mingw_64/include/QtSql/qsqldatabase.h \
+  D:/Qt/6.7.2/mingw_64/include/QtSql/qsqlerror.h \
+  D:/Qt/6.7.2/mingw_64/include/QtSql/qsqlquery.h \
   D:/Qt/6.7.2/mingw_64/include/QtSql/qtsql-config.h \
   D:/Qt/6.7.2/mingw_64/include/QtSql/qtsqlexports.h \
   D:/Qt/6.7.2/mingw_64/include/QtSql/qtsqlglobal.h \
+  D:/Qt/6.7.2/mingw_64/include/QtWidgets/QCheckBox \
   D:/Qt/6.7.2/mingw_64/include/QtWidgets/QMainWindow \
+  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractbutton.h \
+  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qcheckbox.h \
   D:/Qt/6.7.2/mingw_64/include/QtWidgets/qmainwindow.h \
   D:/Qt/6.7.2/mingw_64/include/QtWidgets/qsizepolicy.h \
   D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtabwidget.h \
@@ -353,4 +366,5 @@ D:/QtMiniProjects/ToDoList/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/ToDoList_au
   D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/sys/types.h \
   D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h \
   D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
-  D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h
+  D:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
+  D:/QtMiniProjects/ToDoList/task.h

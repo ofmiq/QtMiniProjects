@@ -2,7 +2,9 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QCheckBox>
 #include <QSqlDatabase>
+#include "task.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -25,6 +27,8 @@ private:
     bool connectToDatabase();
     void addTask();
     void loadTasksFromDatabase();
+    void addTaskToUI(Task task);
+    void connectTaskUIElements(int row, Task task);
 };
 
 #endif // MAINWINDOW_H

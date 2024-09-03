@@ -316,6 +316,12 @@
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
+		],
+		[
+			"D:/QtMiniProjects/ToDoList/task.h",
+			"MU",
+			"EWIEGA46WW/moc_task.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -392,7 +398,8 @@
 	"SOURCES" : 
 	[
 		[ "D:/QtMiniProjects/ToDoList/main.cpp", "MU", null ],
-		[ "D:/QtMiniProjects/ToDoList/mainwindow.cpp", "MU", null ]
+		[ "D:/QtMiniProjects/ToDoList/mainwindow.cpp", "MU", null ],
+		[ "D:/QtMiniProjects/ToDoList/task.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
